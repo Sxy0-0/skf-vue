@@ -1,0 +1,22 @@
+.header {
+  flex: 1;
+}
+.el-menu--horizontal {
+  flex: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: none;
+  border-right: none;
+}
+.el-menu--horizontal > .el-menu-item {
+  color: #707070;
+  font-size: 1.167rem;
+}
+.el-container.is-vertical {
+  flex-direction: row;
+  border-bottom: 1px solid #f1f1f1;
+}
+.layout_logo {
+  width: 15vh;
+  margin-left: 30vh;
+}
